@@ -1,7 +1,6 @@
 # Digital Media Programming
 @ Goucher Digital Arts
-<br>July 24 - Aug 1, 2015
-<br>8:30 AM - 12:30 PM
+<br>Fall Residency, July-August 2016
 
 ~
 
@@ -11,7 +10,7 @@ Contact: [benjamin.taylor@goucher.edu](mailto:benjamin.taylor@goucher.edu)
 
 **Residency**
 
-[Class 1: Shapes That Move](https://github.com/taylorbf/DMP15/tree/master/class1)
+[Class 1: Shapes That Move](/class1)
 <br>[Class 2: Interaction and Logic](https://github.com/taylorbf/DMP15/tree/master/class2)
 <br>[Class 3: Data and Iteration](https://github.com/taylorbf/DMP15/tree/master/class3)
 <br>[Class 4: Reusable Code](https://github.com/taylorbf/DMP15/tree/master/class4)
