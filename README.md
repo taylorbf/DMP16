@@ -4,7 +4,7 @@
 
 ~
 
-**NOTE: This Repo is under development for July 2016. Content is not finished yet.**
+**NOTE: This repo is under development for July 2016. Content is not finished yet.**
 
 Contact: [benjamin.taylor@goucher.edu](mailto:benjamin.taylor@goucher.edu)
 
