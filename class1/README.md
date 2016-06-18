@@ -1,26 +1,27 @@
-# Shapes and Movement
+# Intro to p5.js and 2d primitives 
 
-This tutorial is for creating visual art within the [Processing](http://processing.org) programming environment. 
+Welcome to the world of creative code!
 
-Processing is built upon the language of Java. Many components of this language can be used in Java and other popular languages.
+This residency you will work with [p5.js](http://p5js.org), a JavaScript art toolkit based on the [Processing](http://processing.org) programming environment. 
+
+P5.js is remarkable because it runs *right in your web browser*. Through p5, you will learn the conventions of JavaScript, one of the core languages of the web.
 
 ## Structure of a Sketch
 
 #### Setup and Draw
 
-```
-// the setup function gets called once when the sketch loads
+```javascript
 
-void setup() {
+// the setup function gets called once when the sketch loads
+function setup() {
 
 }
-
 
 // the draw function gets called 60 times per second.
-
-void draw() {
+function draw() {
 
 }
+
 ```
 
 
