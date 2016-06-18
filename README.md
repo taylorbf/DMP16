@@ -4,26 +4,28 @@
 
 ~
 
+**NOTE: This Repo is under development for July 2016. Content is not finished yet.**
+
 Contact: [benjamin.taylor@goucher.edu](mailto:benjamin.taylor@goucher.edu)
 
 ~
 
 **Residency**
 
-[Class 1: Shapes That Move](/class1)
-<br>[Class 2: Interaction and Logic](https://github.com/taylorbf/DMP15/tree/master/class2)
-<br>[Class 3: Data and Iteration](https://github.com/taylorbf/DMP15/tree/master/class3)
-<br>[Class 4: Reusable Code](https://github.com/taylorbf/DMP15/tree/master/class4)
+[Class 1: Intro to p5.js and 2D primitives](/class1)
+<br>[Class 2: Interaction](/class2)
+<br>[Class 3: Interaction II: Mobile](/class3)
+<br>[Class 4: Interaction III: Audio](/class4)
 
 Break
 
-[Class 5: Object-Oriented Programming](https://github.com/taylorbf/DMP15/tree/master/class5)
-<br>[Class 6: Video](https://github.com/taylorbf/DMP15/tree/master/class6)
-<br>[Class 7: 3D](https://github.com/taylorbf/DMP15/tree/master/class7)
-<br>[Class 8: Fun with Networks, Recursion, &c.](https://github.com/taylorbf/DMP15/tree/master/class8)
+[Class 5: Generative Art](/class5)
+<br>[Class 6: Generative Art II](/class6)
+<br>[Class 7: Lab](/class7)
+<br>[Class 8: Video Art](/class8)
 
 **Online**
 
-[Class 9: Final Project, Version 1](https://github.com/taylorbf/DMP15/tree/master/week1)
-<br>[Class 10: Final Project, Version 2](https://github.com/taylorbf/DMP15/tree/master/week2)
-<br>[Class 11: Final Project, Version 3](https://github.com/taylorbf/DMP15/tree/master/week3)
+[Week 1](/week1)
+<br>[Week 2: Final Project draft](/week2)
+<br>[Week 3: Final Project presentation](/week3)
