@@ -2,16 +2,37 @@
 
 Welcome to the world of creative code!
 
-This residency you will work with [p5.js](http://p5js.org), a JavaScript art toolkit based on the [Processing](http://processing.org) programming environment. 
+This residency, you will work with [p5.js](http://p5js.org), a JavaScript toolkit for coding digital art, based on the [Processing](http://processing.org) programming environment. 
 
 P5.js is remarkable because it runs *right in your web browser*. Through p5, you will learn the conventions of JavaScript, one of the core languages of the web.
 
+
+
+## Getting Started
+
+You will need a code editor for this class. While many plain-text editors will do, I recommend [Sublime Text](/)
+
+
+If you are new to programming for the web, I recommend starting with this [p5.js template](/).
+
+
 ## Structure of a Sketch
+
+#### Canvas
+
+Like a painter, a digital artist needs a canvas to draw on. In p5, this is created with the command `createCanvas()`. 
+
+To create a canvas that is 600 pixels wide and 400 pixels tall, use:
+
+```
+createCanvas(600,400)
+```
 
 #### Setup and Draw
 
-```javascript
+When beginning any sketch, the first code you are likely to write is for the functions `setup` and `draw`. You can read about uses of these functions `here` and `here`
 
+```
 // the setup function gets called once when the sketch loads
 function setup() {
 
@@ -21,19 +42,18 @@ function setup() {
 function draw() {
 
 }
-
 ```
 
 
 ## 2D Coordinate Plane
 
-In Processing, the drawing canvas is understood as a 2D coordinate plane. This lets you draw and animate shapes with single-pixel accuracy.
+In p5, the drawing canvas is a 2D coordinate plane. This lets you draw and animate shapes with single-pixel accuracy.
 
 The top left point of the canvas is (0,0). 
 
 Distance is measured in pixels on an **x-axis** (moving to the right) and **y-axis** (moving down).
 
-![2D Canvas](/images/2dplane.png)
+![2D Canvas](../images/2dplane.png)
 
 Shapes are drawn using (x,y) coordinates.
 
@@ -47,6 +67,7 @@ Draw a 1-pixel point at an x/y position.
 point( x, y )
 
 ```
+// One point 
 point(10,10);
 ```
 
@@ -82,113 +103,54 @@ ellipse(50,50,30,60);
 
 #### 2D shapes review
 
-via Fry and Raes
+via Fry and Reas
 
-![Basic Processing Shapes](/images/shapes.png)
-
-
-
-## Variables
-
-Variables are one of the core building blocks of programming. Variables are your way of *remembering information* from one moment to the next. They are also your way of *transforming information*.
-
-This week, we will use them to animate shapes.
-
-It's important to choose the right kind of variable for your needs.
-
-#### Boolean
-
-A boolean can have one of two values: `true` or `false`. It is like a lightswitch, either on or off, like a binary operator.
-
-`boolean IamBen = true;`
-
-#### Integer
-
-An integer is a whole number, such as `0`, `1`, `-2`, etc. It cannot be a decimal number.
-
-`int x = 100;`
-
-#### Float
-
-A float number may be a decimal number *or* whole number.
-
-`float money = 3.50;`
-
-`float fingers = 10;`
+![Basic Processing Shapes](../images/shapes.png)
 
 
-#### String
+## Fill and Stroke (Colors)
 
-A String is a piece of text. Specifically, it is non-code text, like regular English. A string is surrounded by quotation marks.
+Read about colors in processing [here]().
+
+Transparency
+
+## Putting it together
+
+A beginning sketch might look like this:
 
 ```
-String greeting = "Yo, what's up?";
-```
+// the setup function gets called once when the sketch loads
+function setup() {
+	createCanvas(800,600)
+}
 
-A string has a length.
-
-```
-int x = greeting.length;
-```
-
-`x` now equals 14, because that's how many characters the text has:
-
-```
-Y o ,   w h a t ' s     u  p  ?
-1 2 3 4 5 6 7 8 9 10 11 12 13 14
-```
-
-## Operators
-
-Variables may be operated on after they are defined.
-
-```
-int x = 10;
-x = x / 2;
-```
-x is now 5
-
-```
-x = x + 2;
-```
-x is now 7
-
-
-
-## Basic Animation
-
-Using a combination of shapes, variables, and operators, we can make images move.
-
-Study this sketch. What do you think will happen?
-
-```
-int x = 0;
-int y = 10;
-
-void draw() {
-
-   ellipse(x,y,10,10);
-   x = x + 1;
-
+// the draw function gets called 60 times per second.
+function draw() {
+	ellipse(500,300,100,100)
 }
 ```
-*Remember, draw() gets called over and over again, 60 times per second.*
+
+## Debugging JavaScript
+
+
+
+
+
+
+## Interaction preview: mouseX and mouseY
+
+
+
+
 
 
 ## Reference
 
-Fry & Raes, Ch 3 (Shapes) & Ch 4 (Variables)
+Fry & Raes, Ch 3 (Shapes)
 
 
-## Context
-
-
-## Reflection
-
-What kind of variables do you see in your daily life?
 
 ## Assignment
 
-• Commit an original sketch to GitHub. Due by 7 AM on Day 2.
-
-• Bring in a real world example of each type of variable we discussed (String, integer, float, boolean). *Example: A boolean in my daily life is a lightswitch (it is either on or off).*
+- Commit an original sketch to GitHub.
+- Complete the Day 1 Exercise on debugging.
