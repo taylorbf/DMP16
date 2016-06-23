@@ -1,7 +1,5 @@
 # Digital Media Programming
 
-**NOTE: This repo is under development for July 2016. Content is not finished yet.**
-
 ![image](images/reas2.jpg)
 
 ~
@@ -34,3 +32,4 @@ Break
 
 ~
 
+[Think in Code](http://taylorbf.github.io/thinkincode/)
