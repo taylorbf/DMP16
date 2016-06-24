@@ -32,4 +32,4 @@ Break
 
 ~
 
-[Think in Code](http://taylorbf.github.io/thinkincode/)
+*Note: This is the first year using p5.js for this class. I am in the midst of translating the prior year's examples from Processing (Java) to p5.js (JavaScript). I have removed the old examples and I'll post the updated examples as I create them in the weeks leading up to class.*
