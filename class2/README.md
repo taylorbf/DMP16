@@ -57,19 +57,19 @@ Follow the same paradigm for:
 
 ## Interaction: Keyboard
 
-#### [keyPressed()](https://p5js.org/reference/#/p5/keyPressed)
+#### [keyTyped()](https://p5js.org/reference/#/p5/keyTyped)
 
 ```
-function keyPressed() {
+function keyTyped() {
 
     // code in here will happen when you press a keyboard button
 
 }
 ```
 
-**keyCode**
+**key**
 
-Inside the keyPressed function, the `keyCode` variable holds the ASCII value of the letter you typed.
+Inside the keyPressed function, the `key` variable holds the name of the letter you typed, such as "a" for the "a" button.
 
 
 ## Logic
@@ -139,6 +139,8 @@ if (x > 5 && x < 15) {
 
 Logic and interaction work well together. `if` can be used to control your interaction.
 
+#### Mouse
+
 You can model a simple pencil:
 
 ```
@@ -166,6 +168,22 @@ function draw() {
 ```
 
 **Note that the mousePressed variable is not the same as the mousePressed() function. We will discuss this in class!!**
+
+#### Key
+
+You can use `if` to perform different actions depending on which key you type.
+
+```
+function keyTyped() {
+
+	if (key == "a") {
+	
+	    // code in here will happen when the "a" key is typed
+	
+	}
+
+}
+```
 
 
 ## Mapping
