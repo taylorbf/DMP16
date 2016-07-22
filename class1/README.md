@@ -100,4 +100,3 @@ GitHub has some perks. One is that it can host our p5 sketches on the web!
 ## Assignment
 
 - Commit an original sketch to GitHub.
-- Complete the Day 1 Exercise on debugging.
