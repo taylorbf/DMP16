@@ -15,7 +15,7 @@ p5.js is remarkable because it runs *right in your web browser*. Through p5, you
 
 In [this performance](http://medias.ircam.fr/x6b4e2d), Kyle Stetz performs music by live coding JavaScript on stage. In music, often considered an art of emotion, performances like this seem to be the final obliteration of the notion that computer programming is a cold, objective or purely scientific act.
 
-For a broader introduction, I encourage you to look through *Creative Code* by John Maeda, on the bookshelves in the Soper Room throughout residency. A copy of John Maeda's *Design By Numbers* manual will also be there.
+For a broader introduction, I encourage you to look through *Creative Code* by John Maeda, which I will leave on the bookshelves in the Soper Room after class on Day 2 and leave there for the remainder of the residency.
 
 
 ## Getting Started
