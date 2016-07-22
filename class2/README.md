@@ -146,7 +146,7 @@ You can model a simple pencil:
 ```
 function draw() {
 
-	if (mousePressed) {
+	if (mouseIsPressed) {
 		point(mouseX,mouseY);
 	}
 
@@ -166,8 +166,6 @@ function draw() {
 
 }
 ```
-
-**Note that the mousePressed variable is not the same as the mousePressed() function. We will discuss this in class!!**
 
 #### Key
 
