@@ -51,6 +51,10 @@ function draw() {
   var corrBuff = autoCorrelate(timeDomain)
   var freq = findFrequency(corrBuff)
   
+  
+  
+  /* WRITE YOUR CODE HERE */
+  
   if (y > 30) {
   colorMode(HSB)
   fill(freq/10,255,255)

@@ -6,11 +6,12 @@ function preload() {
 
 function setup() {
   createCanvas(500,500)
-  noCursor()
+  background(255)
 }
 
 function draw() {
-  background(255)
   imageMode("center")
-  image(img, mouseX, mouseY,100,115);
+  if (mouseIsPressed) {
+    image(img, mouseX, mouseY,100,115);
+  }
 }

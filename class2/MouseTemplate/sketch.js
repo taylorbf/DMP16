@@ -5,8 +5,7 @@ function setup() {
 
 function draw() {
   // Erase gradually
-  fill(255,50)
-  rect(0,0,width,height)
+  background(255,50)
 }
 
 /************ 
