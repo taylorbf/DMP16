@@ -150,11 +150,11 @@ You can read about them [in the reference](http://p5js.org/reference/#/p5/rotati
 
 ## Reference
 
-Touch interaction: McCarthy, Chapter 5
+Mobile Interaction: McCarthy, Chapter 5
 
-Loops: McCarthy, Chapter X
+Loops: McCarthy, Chapter 11
 
-Arrays: McCarthy, Chapter X 
+Arrays: McCarthy, Chapter 11
 
 
 ## Assignment
