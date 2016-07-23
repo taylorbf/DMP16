@@ -4,7 +4,7 @@
 
 ## Context
 
-[scroll.computer](http://scroll.computer)  by Yotam Mann (mouse wheel)
+[jazz.computer](http://jazz.computer)  by Yotam Mann (mouse wheel)
 
 [XYZ app](https://vimeo.com/39859278) JODI (device motion)
 
