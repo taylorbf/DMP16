@@ -3,8 +3,6 @@ function setup() {
   noStroke()
 }
 
-// try accelerometerX also
-
 function draw() {
   background(0,20)
   var rz = rotationZ
@@ -14,3 +12,5 @@ function draw() {
   ellipse(55,ry,50,50)
   ellipse(100,rz,50,50)
 }
+
+// or try accelerationX and accelerationY
