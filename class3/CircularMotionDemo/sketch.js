@@ -6,6 +6,7 @@ function setup() {
 }
 
 function draw() {
+  background(0,50)
   var x = sin(rotation) * rotationSize + width/2
   var y = cos(rotation) * rotationSize + width/2
   ellipse(x,y,20,20)
