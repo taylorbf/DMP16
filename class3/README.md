@@ -1,6 +1,9 @@
 ## Today's Slideshow
 
+TIP: press N to move to next slide and P to see previous slide
+
 [http://slides.com/bentaylor-2/logic](http://slides.com/bentaylor-2/logic)
+
 
 ## Khan Academy on Processing.JS if you are interested! Thanks Kwasi
 
