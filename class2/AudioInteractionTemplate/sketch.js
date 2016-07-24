@@ -64,11 +64,11 @@ function draw() {
   fill(0,volume * 255)
   ellipse(100,100,200,200)
   
-  if (volume > 0.3) {
+  //if (volume > 0.3) {
     colorMode(HSB)
     fill(freq/10,255,255)
     ellipse(300,100,200,200)
-  }
+  //}
     
 }
 
