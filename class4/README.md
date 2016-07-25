@@ -129,18 +129,14 @@ Use your knowledge of interactivity programming to make one of our audio templat
 
 #### Step 1
 
-Download one of the audio templates
-
-[Oscillator Instrument Template]()
-
-[Audio Playback Template.]()
+Download the audio templates from this folder (Class4).
 
 
 #### Step 2
 
 Use interactions like `keyTyped()`, `mousePressed`, or `mouseX` to make the audio interactive in some way.
 
-Use the [class2](https://github.com/taylorbf/DMP16/tree/master/class2) reference as a guide for mouse and key interaction. Also use McCarthy book and p5 reference online!
+Use the [class2](https://github.com/taylorbf/DMP16/tree/master/class2) reference as a guide for mouse and key interaction. Also use McCarthy book and [p5 reference](http://p5js.org/reference/#/libraries/p5.sound) online!
 
 .
 
