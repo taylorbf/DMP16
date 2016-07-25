@@ -43,13 +43,6 @@ How are your interactions *mapped* to audio events?
 
 [MIDI note chart](https://freaksolid.files.wordpress.com/2013/03/midi_note_values.jpg)
 
-#### Scales
-
-```
-var major = [ 60, 62, 64, 65, 67, 69, 71]
-
-var minor = [ 60, 62, 63, 65, 67, 68, 70]
-```
 
 ## Synthesis in p5
 
