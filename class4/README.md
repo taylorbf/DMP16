@@ -143,3 +143,7 @@ Use the [class2](https://github.com/taylorbf/DMP16/tree/master/class2) reference
 This is part of class participation and is not a formal project -- have some fun with it! If you find that you enjoy working with audio in p5, you can use audio as the foundation of your generative art project (Project 2) later this week.
 	
 
+# HW
+
+- Read Ch 4 and Ch 11.1 - 11.7 in the Getting Started with p5 book.
+- Check out the Creative Code book in the Soper Room if you have time!
