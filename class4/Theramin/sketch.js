@@ -13,3 +13,22 @@ function draw() {
   fill(0,100,255,80)
   ellipse(mouseX,mouseY,40,40)
 }
+
+/* You can use...
+
+  osc.start()
+  osc.stop()
+  
+  osc.freq( 1 )   
+    // sets the pitch of the oscillator
+    // try a number between 0 and 2000
+  
+  osc.amp( 1 )   
+    // sets the volume of the oscillator
+    // ONLY use numbers between 0 and 1
+  
+  osc.pan( 0 )   
+    // sets the location of the sound between left or right speakers
+    // try numbers between -1 (left) and 1 (right)
+  
+*/
