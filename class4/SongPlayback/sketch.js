@@ -7,29 +7,30 @@ function preload() {
 function setup() {
   createCanvas(720, 200)
   background(255,0,0)
-  fill(255)
-  text("click to play or stop",10,10)
+  song.play()
 }
 
-function mousePressed() {
-  // song.isPlaying() returns a boolean!!
-  if ( song.isPlaying() ) { 
-    song.stop()
-    background(255,0,0)
-  } else {
-    song.loop()
-    background(0,255,0)
-  }
-}
 
-function draw() {
-  song.rate(1)
+/* You can use...
+
+  song.play()
+  song.loop()
+  song.stop()
   
-  volume = 1
-  volume = constrain(volume, 0, 1)
-  song.amp(volume)
+  song.rate( 1 )   
+    // sets the playback speed of the song
+    // try a number between 0 and 4
   
-  pan = 0
-  pan = constrain(pan, -1, 1)
-  song.pan(pan)
-}
+  song.amp( 1 )   
+    // sets the volume of the song
+    // ONLY use numbers between 0 and 1
+  
+  song.pan( 0 )   
+    // sets the location of the song between left or right speakers
+    // try numbers between -1 (left) and 1 (right)
+
+  one final tip:
+  song.isPlaying()    
+    // returns a boolean
+  
+*/
