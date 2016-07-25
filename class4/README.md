@@ -147,3 +147,4 @@ This is part of class participation and is not a formal project -- have some fun
 
 - Read Ch 4 and Ch 11.1 - 11.7 in the Getting Started with p5 book.
 - Check out the Creative Code book in the Soper Room if you have time!
+- Optional -- Check out some of [Daniel Shiffman's p5 video lessons](https://www.youtube.com/user/shiffman/playlists?shelf_id=14&sort=dd&view=50). His tutorials are legendary. Find one that is about a topic you want to review or are interested in. 
