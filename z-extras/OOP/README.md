@@ -2,7 +2,7 @@
 
 In the real world, objects are multiplicitous. The world does not contain just one raindrop, it contains many raindrops. They are all similar -- you could say they are created from the same **template** -- but each raindrop is slightly different, and each acts independently.
 
-This is true also of most things -- plants, animals, planets, man-made products, etc.
+This is true of most things in our world -- plants, animals, planets, man-made products, etc.
 
 #### The Problem with Coding Many Raindrops
 
@@ -37,7 +37,7 @@ function fall2() {
 
 ```
 
-Then you will decide you want 1000 raindrops, and then you will break down and cry that is going to take hours.
+Then you will decide you want 1000 raindrops, and then you will break down and cry because that is going to take hours.
 
 *There must be a better way*, you will think to yourself. 
 
@@ -237,7 +237,7 @@ In our case, `Raindrop` is our class and `drop` is our instance. `.fall()` is an
 
 ## Reading
 
-Read the McCarthy chapter on loops and objects.
+Read the McCarthy chapters 10 (Objects) and 11 (Arrays of Objects). You can do this reading over the next few days. It does not have to be done all in one night!
 
 ## Assignment
 
@@ -248,6 +248,7 @@ Guidelines:
 - Your object should be active -- that is, it should be able to move or change in some way.
 - You should use multiple instances of your object in your artwork.
  
+.
 
 Advice: 
 
