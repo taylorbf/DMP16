@@ -13,7 +13,7 @@ var x = 100;
 var y = 0;
 
 function fall() {
-  y = y - 5;
+  y = y + 5;
 }
 
 ```
@@ -28,11 +28,11 @@ var x2 = 100;
 var y2 = 0;
 
 function fall() {
-  y1 = y1 - 5;
+  y1 = y1 + 5;
 }
 
 function fall2() {
-  y2 = y2 - 5;
+  y2 = y2 + 5;
 }
 
 ```
@@ -46,11 +46,11 @@ There is!
 
 ## Objects
 
-A JS Object is a way to create self-contained, independent entities which are similar to each other.
+A JS Object is a way to create a self-contained, independent entity with its own characteristics (variables) and actions (functions).
 
-**You can think of a class definition as similar to a template. You can create any number of objects from that template.**
+**You can think of an Object definition as similar to a template. You can create any number of objects from that template.**
 
-If you turn our raindrop into an object, you can then create 100 raindrops with little effort.
+If you turn our raindrop into a JS Object, you can then create 1000 raindrops with little effort.
 
 #### Definition
 
@@ -81,6 +81,7 @@ Raindrop.prototype.fall = function() {
 Creating an instance of the Raindrop is now every easy:
 
 ```
+// create a drop at with x position 50
 var drop = new Raindrop(50)
 ```
 
@@ -91,22 +92,22 @@ Getting its y position:   `drop.y`
 Create another instance of Raindrop:
 
 ```
+// create a drop at with x position 100
 var drop2 = new Raindrop(100)
 ```
 
 
 ## Let's break it down...
 
-
 **Components of an Object Constructor**
 
-- Wrapper with parameters
+- Wrapper function, with parameters
 - Internal variables (properties)
 - Object functions (methods)
 
 ##### Wrapper
 
-Your object constructor must be wrapped in a function declaration
+Your object constructor must be wrapped in a function declaration.
 
 ```
 function Raindrop() {
@@ -120,7 +121,7 @@ function Raindrop() {
 
 Variables defined inside your Object are **local**. They cannot be used outside your Object.  
 
-In this case, a new local x and y variable will be created **each time you make a new raindrop.**
+In this case, a new local x and y variable will be created **each time you make a new raindrop.** These x and y variables will apply **only to the raindrop they belong to.**
 
 ```
 function Raindrop() {
@@ -173,16 +174,15 @@ function Raindrop( dropX ) {
 
 Raindrop.prototype.fall = function() {
   
-  stroke("#559ADE");
-  
-  line( this.x, this.y, this.x, this.y+50);
-    
   this.y = this.y + 5;
+  
+  stroke("#559ADE");
+  line( this.x, this.y, this.x, this.y+50);
      
 }
 ```
 
-That is our full class definition. But, you could keep building it by adding any number of addition class methods.
+That is our full Object definition. But, you could keep building it by adding any number of additional methods.
 
 
 ## Object Instance
@@ -230,14 +230,14 @@ Also the McCarthy chapter, listed below.
 
 Using JS objects harnesses the real power of object-oriented programming (OOP).
 
-In OOP, ideas/objects are programmed as self-contained entities with characteristics (properties) and actionable abilities (methods). 
+In OOP, ideas & objects are programmed as self-contained entities with characteristics (properties) and actionable abilities (methods). 
 
-In our case, `Raindrop` is our class and `drop` is our instance. `.fall()` is an action which our `drop` can do. This lets us more easily model the world around us and create complex digital worlds!
+In our case, `Raindrop` is our class and `drop` is our instance. `.fall()` is an action which our `drop` can do. This lets us more easily model the world around us!
 
 
 ## Reading
 
-Read the McCarthy chapters 10 (Objects) and 11 (Arrays of Objects). You can do this reading over the next few days. It does not have to be done all in one night!
+Read McCarthy chapters 10 (Objects) and 11 (Arrays of Objects). You can do this reading over the next few days. It does not have to be done all in one night!
 
 ## Assignment
 
