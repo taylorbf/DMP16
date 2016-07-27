@@ -1,5 +1,5 @@
 
-var color = ["#000","#0af"]
+var colors = ["#000","#0af","#ccc", "#fff"]
 
 function setup() {
   // create our canvas
