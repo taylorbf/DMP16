@@ -5,7 +5,7 @@ var numberOfCircles = 300
 var colorOptions
 
 function setup() {
-  createCanvas(1500,700)
+  createCanvas(1200,800)
   background(255)
   noFill()
   strokeWeight(1)
