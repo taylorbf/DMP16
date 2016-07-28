@@ -5,7 +5,6 @@ function setup() {
   // create our canvas
   createCanvas(1000,600)
   noStroke()
-  
 
   for (var i = 0; i < 10000 ; i=i+1) { 
     // set our variables to new values
