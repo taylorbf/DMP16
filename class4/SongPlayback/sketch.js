@@ -7,7 +7,19 @@ function preload() {
 function setup() {
   createCanvas(720, 200)
   background(255,0,0)
-  song.play()
+  
+  slider = createSlider(0, 255, 100);
+  slider.position(10, 10);
+  slider.style('width', '80px');
+  
+  song.loop()
+  song.rate( 1 ) 
+}
+
+function draw() {
+  console.log( slider.value() )
+  var speed = map(slider.value(),0,255,0,4)
+  song.rate(speed)
 }
 
 
