@@ -3,3 +3,4 @@
 - [Michelle](https://taylorbf.github.io/michelle/GenArt2/)
 - [Liz Keiser](https://ekeiser11.github.io/planetGenerator/)
 - [Eve](http://evebee.github.io/shootingstars/)
+- [Valerie](http://silverroxy79.github.io/Project2-GenerativeArt/)
