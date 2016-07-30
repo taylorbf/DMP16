@@ -1,1 +1,5 @@
-#### This day's tutorial will be shared during the residency.
+#### Project 2: Generative Artworks
+
+- [Michelle](https://taylorbf.github.io/michelle/GenArt2/)
+- [Liz Keiser](https://ekeiser11.github.io/planetGenerator/)
+- [Eve](http://evebee.github.io/shootingstars/)
