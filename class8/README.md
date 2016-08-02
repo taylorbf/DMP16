@@ -43,10 +43,10 @@ function draw() {
         var index = (row * width + col) * 4
        
         // set the red, green, blue, and alpha of each pixel
-        pixels[index+0] = 255   	// red 
-        pixels[index+1] = 0		// green
-        pixels[index+2] = 0		// blue
-        pixels[index+3] = 255		// alpha
+        pixels[index+0] = 255         // red 
+        pixels[index+1] = 0           // green
+        pixels[index+2] = 0           // blue
+        pixels[index+3] = 255         // alpha
         
       }     
     }  
@@ -57,12 +57,12 @@ function draw() {
 
 ```
 
-The above example would set every pixel on the canvas to the color red -- `rgb(255,0,0)`. This is equivalent the `background()` function in p5 -- in fact, this is pretty much how that function is written, under the hood!
+The above example would set every pixel on the canvas to the color red -- `rgb(255,0,0)`. This is equivalent the `background()` function in p5 -- in fact, this is the gist of how that function is written, under the hood!
 
 
 ## Basic Video In & Out
 
-p5 contains a `createCapture()` function for accessing a computer's video camera.
+p5 contains a `createCapture()` function for accessing a computer's default video camera.
 
 
 ```
@@ -89,7 +89,7 @@ function draw() {
 
 Notice that we are using the `image()` function to draw the video onto the canvas. In our `draw()` function (which happens 60 times per second) we grab the current video frame and draw it to our canvas as an image.
 
-This also means you can do anything to it that we could do with an image, such as resize it, crop it, or move it to a new location on the canvas.
+This also means you can do anything to it that we have previously done to images, such as resizing, cropping, or moving it to a new location on the canvas.
 
 See the **BasicVideo** sketch in this folder to try out this code.
 
@@ -103,13 +103,15 @@ A video is a series of images. Each image is called one "frame" of the video.
 
 Each frame of a video is *just data*. Specifically, it is a long list of numbers that describe the color of each pixel of the video frame. In p5, this list of numbers is **an array.** This makes sense, because it is a list of related information.
 
-So, just as we were able to edit individual pixels on our canvas, so we can work with individual pixels of our video, using the same methodology.
+Just as we were able to edit individual pixels on our canvas, so we can work with individual pixels of our video, using the same methodology.
 
-### Entering the Matrix
+### Entering the Video Matrix
 
 Within the `draw()` function, you can use `video.loadPixels()` to access the video's array of pixels.
 
-You can **loop through the array** of pixels and use the color values of individual pixels to draw with.
+You can **loop through the array** of the video's pixels and use the color values of individual pixels to draw with.
+
+**NOTE:** for this example, our canvas must be the same size as our video.
 
 ```
 
@@ -122,11 +124,11 @@ function draw() {
   for (var row=0;row<height;row=row+1) {
     for (var col=0;col<width;col=col+1) {
     
-      // find the location in the pixels[] array
+      // find the location in the video.pixels array
       // of the pixel at the current column and row
       var index = (row * width + col) * 4
        
-      // find the red, blue, and green values of the current pixel 
+      // find the red, blue, and green values of the current video pixel 
       var r = video.pixels[index+0]
       var g = video.pixels[index+1]
       var b = video.pixels[index+2]
@@ -163,7 +165,7 @@ function draw() {
 ### Ideas for Altering Pixels
 
 
-##### Make a black and white video
+#### Make a black and white video
 
 Get each pixel's brightness. If it is less than average, make the pixel black. Otherwise, make the pixel white.
 
@@ -172,29 +174,25 @@ Get each pixel's brightness. If it is less than average, make the pixel black. O
 var bright = (r + g + b) / 3
 
 if (bright > 127) {
-    pixels[index+0] = 255
-	pixels[index+1] = 255
-	pixels[index+2] = 255
-	pixels[index+3] = 255
+    r = 255
+    g = 255
+    b = 255
 } else {
-	pixels[index+0] = 0
-	pixels[index+1] = 0
-	pixels[index+2] = 0
-	pixels[index+3] = 255
+    r = 0
+    g = 0
+    b = 0
 }
 
 ```
 
 This code would go where it says `// do something` in the example above. You can also see this code in the **VideoBW** example in this folder.
 
-**Try** 
+Try dding more "if" conditions to this. 
 
-Adding more "if" conditions to this. 
-
-Making it interactive with the mouse.
+Try making it interactive with the mouse.
 
 
-##### Pixelate the video or use the color values to draw other shapes
+#### Pixelate the video or use the color values to draw other shapes
 
 See the `VideoPixels` example in this folder.
 
@@ -202,7 +200,7 @@ See the `VideoPixels` example in this folder.
 
 ## Working with images and static videos 
 
-In class, we looked at using with a live video stream.
+In class, we used a live video stream as the subject of our pixel processing.
 
 However, you can also do pixel manipulation on existing images and videos.
 
@@ -214,14 +212,13 @@ You have already learned to create an image
 var img
 
 function preload() {
-	img = loadImage("assets/puppies.jpg")
+    img = loadImage("assets/puppies.jpg")
 }
 ```
 
-You can load the images pixels **in the same way that you worked with a webcam's pixels.**
+You can load the image's pixels **in the same way that you worked with a webcam's pixels**, by using `img.loadPixels()`
 
-Rather than create a new example here, I will just say that you will use `img.loadPixels()` and `img.pixels[]` rather than `video.loadPixels()` and `
-video.pixels[]`.
+Rather than create a new example here, I will just say that you will use `img.loadPixels()` and `img.pixels[]` rather than `video.loadPixels()` and `video.pixels[]`.
 
 ##### Existing Video
 
@@ -231,7 +228,7 @@ Similarly, you can load a video with `loadVideo()` rather than using your webcam
 var video
 
 function preload() {
-	video = loadVideo("assets/puppies.mp4")
+     video = loadVideo("assets/puppies.mp4")
 }
 ```
 
