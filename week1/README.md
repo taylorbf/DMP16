@@ -8,9 +8,9 @@ In class, we looked at creating a bouncing ball. To do so, we had to create seve
 
 What if you wanted to create many independent bouncing balls?
 
-You can do so my creating an object, You make a template for your bouncing ball, and then create many copies ("instances") from that template.
+You can do so by creating an object template for your bouncing ball, and then create many copies ("instances") from that template.
 
-If you are interested in exploring this path for your final project, you should consults the following resources.
+If you are interested in exploring this path for your final project, you should consult the following resources.
 
 **VIDEOS**
 
