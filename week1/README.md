@@ -31,6 +31,6 @@ Getting Started with p5.js
 
 **HANDOUT**
 
-I created a [handout](./z-extras/OOP/) and a few demo sketches which detail creating a 'raindrop' object and multiplying it to create a simulation of rain.
+I created a [handout](https://github.com/taylorbf/DMP16/tree/master/z-extras/OOP) and a few demo sketches which detail creating a 'raindrop' object and multiplying it to create a simulation of rain.
 
 **HEADS UP: Be sure you feel comfortable with the basic uses of variables, loops, and arrays before starting this unit!**
