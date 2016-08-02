@@ -239,7 +239,7 @@ Then you can use `video.loadPixels()` and `video.pixels[]` just as we did with t
 
 ## Assignment
 
-Your final project assigmnet is a p5 sketch of your own design. It is due on the last day of the online portion of the class. This project topic is wide open, and may be any of the following:
+Your final project assignment is a p5 sketch of your own design, on a topic/subject of your own choosing. It is due on the last day of the online portion of the class. This project is wide open and is a chance for you to integrate p5 with your own interests. If you are looking for ideas, you may want to pursue one of the following ideas:
 
 - video art using video processing
 - an artwork that connects to your own artistic style
@@ -247,12 +247,12 @@ Your final project assigmnet is a p5 sketch of your own design. It is due on the
 - a new generative artwork or interactive artwork
 - another idea!
 
-See the syllabus for a complete project description
+See the syllabus for a complete project description.
 
 #### IMPORTANT NOTES ABOUT SUBMITTING THE ASSIGNMENT
 
-1) I want to hear from you by email each week with screenshots and a progress updates!
+1) I want to hear from you by email each week with screenshots and a progress update!
 
-2) When you submit this project, please submit a video screencapture where you demonstrate your project and walk us through the code.
+2) When you submit this project, please post a video screencapture (i.e. on vimeo/youtube) where you demonstrate your project and explain your code to the class.
 
 	
