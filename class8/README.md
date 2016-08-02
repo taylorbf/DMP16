@@ -243,7 +243,7 @@ Your final project assigmnet is a p5 sketch of your own design. It is due on the
 
 - video art using video processing
 - an artwork that connects to your own artistic style
-- the creation of a JavaScript Object that moves and/or draws (see [Week 2](/week2))
+- the creation of a JavaScript Object that moves and/or draws (see [Week 1 online](/week1))
 - a new generative artwork or interactive artwork
 - another idea!
 
