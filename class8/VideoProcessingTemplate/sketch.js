@@ -27,20 +27,12 @@ function draw() {
       // of the pixel at the current column and row
       var index = (row * width + col) * 4
        
-      // get the red, green, and blue values 
-      // from the current pixel in our video
-      var r = video.pixels[index+0]
-      var g = video.pixels[index+1]
-      var b = video.pixels[index+2]
-       
-      // get the pixel's average brightness
-      // (a number between 0 and 255)
-      var bright = ( r + g + b ) / 3
-       
       // find the red, blue, and green values of the current pixel 
       var r = video.pixels[index+0]
       var g = video.pixels[index+1]
       var b = video.pixels[index+2]
+       
+       
        
       // do something cool to CHANGE the r,g,b variables
       // your code goes here!
