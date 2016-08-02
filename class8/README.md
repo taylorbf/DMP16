@@ -34,24 +34,25 @@ function draw() {
   // tell the computer we want access to the canvas's pixels
   loadPixels()
 
-	// loop through each (x,y) coordinate in our video
-  	for (var row=0;row<height;row=row+1) {
+    // loop through each (x,y) coordinate in our canvas
+    for (var row=0;row<height;row=row+1) {
       for (var col=0;col<width;col=col+1) {
     
       	// find the location in the pixels[] array
       	// of the pixel at the current column and row
-		var index = (row * width + col) * 4
+	var index = (row * width + col) * 4
        
         // set the red, green, blue, and alpha of each pixel
-		pixels[index+0] = 255   	// red 
-		pixels[index+1] = 0			// green
-		pixels[index+2] = 0			// blue
-		pixels[index+3] = 255		// alpha
+	pixels[index+0] = 255   	// red 
+	pixels[index+1] = 0		// green
+	pixels[index+2] = 0		// blue
+	pixels[index+3] = 255		// alpha
         
       }     
     }  
 	
-	updatePixels()
+    // update the canvas with our new amazing pixels array!
+    updatePixels()
 }
 
 ```
