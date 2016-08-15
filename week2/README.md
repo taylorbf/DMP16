@@ -18,7 +18,7 @@ These are perfectly valid questions!!
 
 You may be interested in pursuing a career in programming, but don't yet have the skills to get a job programming. So, how can you improve?
 
-The saying usually goes "Fake it till you make it," but I prefer "Hobby till you make it" -- that is, make coding one of your main interests and be as passionate about it as any of your other hobbies (music, fashion, game of thrones, whatever you other passions are!). 
+The saying usually goes "Fake it till you make it," but I prefer "Hobby till you make it" -- that is, make coding one of your main interests and be as passionate about it as any of your other hobbies (music, fashion, game of thrones, whatever your other passions are!). 
 
 Make coding something that you read about, join communities around, and do for fun. Seek out digital art exhibits in your community. Seek out JavaScript meetups. Read some of John Maeda's books about creative code. (Don't read too many JavaScript textbooks, they will put you to sleep!). Build websites for your friends for free, while googling everything that you don't know how to do yet. As much as you can, keep code and code projects in your weekly life.
 
@@ -54,7 +54,7 @@ Some great twitter accounts to follow:
 
 [Leaders in Software and Art](https://twitter.com/search?q=leaders%20in%20software%20and%20art&src=typd)
 
-[Allison Parish](https://twitter.com/aparrish)
+[Allison Parrish](https://twitter.com/aparrish)
 
 [Processing](https://twitter.com/ProcessingOrg)
 
