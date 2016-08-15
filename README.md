@@ -26,10 +26,6 @@ Break
 
 **Online**
 
-[Week 1: Image and Video Matrices](/week1)
-<br>[Week 2: Final Project draft](/week2)
-<br>[Week 3: Final Project presentation](/week3)
-
-~
-
-*Note: This is the first year using p5.js for this class. I am in the midst of translating the prior year's examples from Processing (Java) to p5.js (JavaScript). I have removed the old examples and I'll post the updated examples as I create them in the weeks leading up to class.*
+[Week 1: Objects](/week1)
+<br>[Week 2: Final Project draft / Post-Class Resources](/week2)
+<br>[Week 3: Final Project presentations](/week3)
