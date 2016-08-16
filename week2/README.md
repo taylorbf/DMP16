@@ -40,6 +40,8 @@ Some great twitter accounts to follow:
 
 [Girls Who Code](https://twitter.com/GirlsWhoCode)
 
+[Code Newbies](https://twitter.com/CodeNewbies)
+
 [Rhizome](https://twitter.com/rhizome)
 
 [School for Poetic Computation](https://twitter.com/sfpc)
